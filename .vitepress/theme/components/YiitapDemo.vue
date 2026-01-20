@@ -111,6 +111,7 @@ const options = computed(() => {
     // locale: locale.value,
     darkMode: isDark.value,
     // editable: editable.value,
+    title: true,
     content: props.locale === 'zh' ? BasicFeaturesArticleZh : BasicFeaturesArticle,
     showMainMenu: false,
     showBubbleMenu: true,
@@ -150,7 +151,7 @@ const options = computed(() => {
       'aiBlock',
     ],
     extensions: [
-      'Emoji',
+      // 'Emoji',
       'InlineMath',
       'Markdown',
       'OAiBlock',
@@ -158,6 +159,7 @@ const options = computed(() => {
       'OBlockquote',
       'OCallout',
       'OCodeBlock',
+      'OColon',
       'OColorHighlighter',
       'ODetails',
       'OHeading',
@@ -167,6 +169,7 @@ const options = computed(() => {
       'OShortcut',
       'OSlash',
       'OSlashZh',
+      'OTrailingNode',
       'OVideo',
     ],
   }
