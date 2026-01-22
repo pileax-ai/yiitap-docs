@@ -7,7 +7,7 @@ import path from "path";
 
 const componentsDir = path.resolve("../yiitap/packages/vue/src/components");
 const outputDir = path.resolve("src/public/data/api/vue/components");
-const repoBaseUrl = 'https://github.com/yiitap/yiitap/blob/main/';
+const repoBaseUrl = 'https://github.com/pileax-ai/yiitap/blob/main/';
 
 // Recursively traverse the directory and return all .vue file paths
 function getVueFiles(dir) {

@@ -66,7 +66,7 @@ function onUpdate({ json, html }: { json: any; html: string }) {
 }
 </script>
 ```
-For a complete example, please refer to: [Demo](https://github.com/yiitap/yiitap/blob/main/apps/vue/src/components/Demo.vue)
+For a complete example, please refer to: [Demo](https://github.com/pileax-ai/yiitap/blob/main/apps/vue/src/components/Demo.vue)
 == React
 ```jsx typescript
 import { useState } from 'react'
@@ -83,7 +83,7 @@ function App() {
 
 export default App
 ```
-For a complete example, please refer to: [Demo](https://github.com/yiitap/yiitap/blob/main/apps/react/src/App.jsx)
+For a complete example, please refer to: [Demo](https://github.com/pileax-ai/yiitap/blob/main/apps/react/src/App.jsx)
 :::
 
 ## More

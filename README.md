@@ -1,6 +1,6 @@
 ## Introduction
 
-Documentation for [Yiitap](https://github.com/yiitap/yiitap). 🍀
+Documentation for [Yiitap](https://github.com/pileax-ai/yiitap). 🍀
 
 ## Quick start
 

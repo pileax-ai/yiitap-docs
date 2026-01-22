@@ -65,7 +65,7 @@ function onUpdate({ json, html }: { json: any; html: string }) {
 }
 </script>
 ```
-完整的示例请参考: [Demo](https://github.com/yiitap/yiitap/blob/main/apps/vue/src/components/Demo.vue)
+完整的示例请参考: [Demo](https://github.com/pileax-ai/yiitap/blob/main/apps/vue/src/components/Demo.vue)
 == React
 ```jsx typescript
 import { useState } from 'react'
@@ -82,7 +82,7 @@ function App() {
 
 export default App
 ```
-完整的示例请参考: [Demo](https://github.com/yiitap/yiitap/blob/main/apps/react/src/App.jsx)
+完整的示例请参考: [Demo](https://github.com/pileax-ai/yiitap/blob/main/apps/react/src/App.jsx)
 :::
 
 ## 更多

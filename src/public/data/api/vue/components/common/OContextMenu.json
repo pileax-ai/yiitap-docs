@@ -56,6 +56,6 @@
     }
   ],
   "sourceFiles": [
-    "https://github.com/yiitap/yiitap/blob/main/packages/vue/src/components/common/OContextMenu.vue"
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/OContextMenu.vue"
   ]
 }

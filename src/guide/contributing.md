@@ -107,10 +107,10 @@ We recommend create pr using template:
 ```shell
 gh pr create --title "feat: new feature" --body-file .github/pull_request_template.md
 ```
-Or create [pull request](https://github.com/yiitap/yiitap/pulls) at Github.
+Or create [pull request](https://github.com/pileax-ai/yiitap/pulls) at Github.
 
 ## 📃 Documentation
 Documentation is as important as code. Please update the documentation repository corresponding to any alterations you make in the code.
 
-- [Code Repo](https://github.com/yiitap/yiitap): Modify the code here.
-- [Documentation Repo](https://github.com/yiitap/docs): Update or add documentation here to reflect changes made in the Yiitap repository.
+- [Code Repo](https://github.com/pileax-ai/yiitap): Modify the code here.
+- [Documentation Repo](https://github.com/pileax-ai/yiitap-docs): Update or add documentation here to reflect changes made in the Yiitap repository.

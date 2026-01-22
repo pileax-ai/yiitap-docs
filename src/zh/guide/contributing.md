@@ -107,10 +107,10 @@ git push origin feat/new-feature
 ```shell
 gh pr create --title "feat: new feature" --body-file .github/pull_request_template.md
 ```
-或者在 GitHub 上创建 [拉取请求](https://github.com/yiitap/yiitap/pulls)。
+或者在 GitHub 上创建 [拉取请求](https://github.com/pileax-ai/yiitap/pulls)。
 
 ## 📃 文档
 文档和代码同样重要。请在代码进行任何更改时，同步更新相应的文档仓库。
 
-- [代码仓库](https://github.com/yiitap/yiitap)：在此修改代码。
-- [文档仓库](https://github.com/yiitap/docs)：在此更新或添加文档，以反映在 Yiitap 仓库中所做的更改。 
+- [代码仓库](https://github.com/pileax-ai/yiitap)：在此修改代码。
+- [文档仓库](https://github.com/pileax-ai/yiitap-docs)：在此更新或添加文档，以反映在 Yiitap 仓库中所做的更改。 
