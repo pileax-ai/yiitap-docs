@@ -1,5 +1,14 @@
 # 快速开始
 
+<p class="badges">
+    <a href="https://www.npmjs.com/package/@yiitap/vue" target="_blank">
+        <img src="https://img.shields.io/npm/v/@yiitap/vue.svg?label=npm" alt="Version" />
+    </a>
+    <a href="https://github.com/pileax-ai/yiitap" target="_blank">
+        <img src="https://img.shields.io/github/stars/pileax-ai/yiitap?style=social" alt="GitHub Repo stars" />
+    </a>
+</p>
+
 ## 安装
 
 :::tabs

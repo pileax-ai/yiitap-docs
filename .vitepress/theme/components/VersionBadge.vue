@@ -11,7 +11,7 @@ defineProps<{
       target="_blank"
       rel="noopener noreferrer"
   >
-    <div class="name">yiitap-docs</div>
+    <div class="name">{{ package }}</div>
     <div class="version">v{{pkg.version}}</div>
   </a>
 </template>

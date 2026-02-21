@@ -25,9 +25,10 @@
             </template>
 
             <div>
-              <o-btn-group>
+              <o-btn-group class="o-btn-group">
                 <div data-tippy-role="tooltip">
                   <o-btn label="OpenAI"
+                         class="o-btn"
                          :class="{ 'active': aiOption.provider === 'openai' }"
                          @click="aiOption.provider = 'openai'" />
                 </div>
@@ -44,6 +45,7 @@
                        v-model="aiOption.apiKey"
                        type="text"
                        placeholder="API Key"
+                       class="o-input"
                        autofocus clearable>
                 <template #prefix>
                   <o-icon name="search" class="o-tips" />
@@ -82,7 +84,8 @@ import {
   OInput,
   OBtn,
   OBtnGroup,
-  OPopover
+  OPopover,
+  OStarterKit,
 } from '@yiitap/vue';
 import '@yiitap/vue/dist/vue.css';
 import { BasicFeaturesArticle, BasicFeaturesArticleZh } from '../../data/demo/article';
@@ -151,25 +154,16 @@ const options = computed(() => {
       'aiBlock',
     ],
     extensions: [
-      // 'Emoji',
+      OStarterKit.configure(),
       'InlineMath',
       'Markdown',
       'OAiBlock',
       'OBlockMath',
-      'OBlockquote',
-      'OCallout',
-      'OCodeBlock',
       'OColon',
       'OColorHighlighter',
       'ODetails',
-      'OHeading',
       'OImage',
-      'OLink',
-      'OParagraph',
       'OShortcut',
-      'OSlash',
-      'OSlashZh',
-      'OTrailingNode',
       'OVideo',
     ],
   }
@@ -242,8 +236,12 @@ onUnmounted(() => {
   margin-bottom: 10px;
 
   .o-btn.active {
-    color: white;
+    color: white !important;
     background: var(--vp-button-brand-bg);
+
+    .o-btn__label {
+      color: white !important;
+    }
 
     &:hover {
       background: var(--vp-button-brand-hover-bg)!important;

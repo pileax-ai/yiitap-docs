@@ -1,14 +1,11 @@
 # 简介
 
 
-Yiitap 是一个Notion风格的块级编辑器。
+Yiitap 是一个AI驱动、Notion风格的块级编辑器。🔥
 
-<p align="left">
-    <a href="https://github.com/pileax-ai/yiitap/actions/workflows/build.yml" target="_blank">
-        <img src="https://github.com/pileax-ai/yiitap/actions/workflows/build.yml/badge.svg" alt="Build Status" />
-    </a>
+<p class="badges">
     <a href="https://www.npmjs.com/package/@yiitap/vue" target="_blank">
-        <img src="https://img.shields.io/npm/v/@yiitap/vue.svg?label=version" alt="Version" />
+        <img src="https://img.shields.io/npm/v/@yiitap/vue.svg?label=yiitap" alt="Version" />
     </a>
     <a href="https://npmcharts.com/compare/@yiitap/vue?minimal=true" target="_blank">
         <img src="https://img.shields.io/npm/dm/@yiitap/vue.svg" alt="Downloads" />
@@ -18,6 +15,9 @@ Yiitap 是一个Notion风格的块级编辑器。
     </a>
     <a href="https://github.com/pileax-ai/yiitap/blob/main/LICENSE" target="_blank">
         <img src="https://img.shields.io/npm/l/@yiitap/vue.svg" alt="License" />
+    </a>
+    <a href="https://github.com/pileax-ai/yiitap" target="_blank">
+        <img src="https://img.shields.io/github/stars/pileax-ai/yiitap?style=social" alt="GitHub Repo stars" />
     </a>
 </p>
 
