@@ -1,6 +1,6 @@
 {
   "name": "yiitap-docs",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Documentation for Yiitap",
   "keywords": [
     "vitepress",
@@ -18,11 +18,11 @@
     "url": "https://github.com/pileax-ai/yiitap-docs/issues"
   },
   "dependencies": {
-    "@tiptap/extension-mathematics": "^3.16.0",
-    "@tiptap/markdown": "^3.16.0",
-    "@yiitap/i18n": "^0.14.0",
-    "@yiitap/util-emoji": "^0.14.0",
-    "@yiitap/vue": "^0.14.0",
+    "@tiptap/extension-mathematics": "^3.20.0",
+    "@tiptap/markdown": "^3.20.0",
+    "@yiitap/i18n": "^0.15.0",
+    "@yiitap/util-emoji": "^0.15.0",
+    "@yiitap/vue": "^0.15.0",
     "@mermaid-js/layout-elk": "^0.2.0",
     "katex": "^0.16.25",
     "markdown-it": "^14.1.1",
