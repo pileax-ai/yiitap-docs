@@ -163,6 +163,8 @@ const options = computed(() => {
       'OColorHighlighter',
       'ODetails',
       'OImage',
+      'OModelViewer',
+      'OMultiColumn',
       'OShortcut',
       'OVideo',
     ],
@@ -193,9 +195,10 @@ watch(
     { deep: true }
 )
 
-onMounted(() => {
+onMounted(async () => {
   init()
   window.addEventListener("scroll", onScroll);
+  await import('@google/model-viewer');
 });
 
 onUnmounted(() => {
