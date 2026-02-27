@@ -60,3 +60,15 @@ body {
         border-top: none;
     }
 }
+
+div[data-type="column-container"] {
+    div[data-type="column"] {
+        .grid-resize-handle {
+            .circle-button {
+                background: dodgerblue!important;
+                width: 26px !important;
+                height: 26px !important;
+            }
+        }
+    }
+}

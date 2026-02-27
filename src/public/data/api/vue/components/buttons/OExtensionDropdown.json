@@ -1,0 +1,17 @@
+{
+  "exportName": "default",
+  "displayName": "OExtensionDropdown",
+  "description": "",
+  "tags": {},
+  "props": [
+    {
+      "name": "editor",
+      "type": {
+        "name": "Editor"
+      }
+    }
+  ],
+  "sourceFiles": [
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/buttons/OExtensionDropdown.vue"
+  ]
+}

@@ -13,6 +13,16 @@
         "func": false,
         "value": "'link'"
       }
+    },
+    {
+      "name": "trigger",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'click'"
+      }
     }
   ],
   "events": [

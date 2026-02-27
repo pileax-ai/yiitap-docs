@@ -1,0 +1,18 @@
+{
+  "exportName": "default",
+  "displayName": "OInlineMathEditBtn",
+  "description": "",
+  "tags": {},
+  "props": [
+    {
+      "name": "editor",
+      "type": {
+        "name": "Editor"
+      },
+      "required": true
+    }
+  ],
+  "sourceFiles": [
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/buttons/OInlineMathEditBtn.vue"
+  ]
+}

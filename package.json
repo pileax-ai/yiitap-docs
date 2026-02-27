@@ -1,6 +1,6 @@
 {
   "name": "yiitap-docs",
-  "version": "0.16.1",
+  "version": "0.16.2",
   "description": "Documentation for Yiitap",
   "keywords": [
     "vitepress",
@@ -21,9 +21,9 @@
     "@google/model-viewer": "^4.1.0",
     "@tiptap/extension-mathematics": "^3.20.0",
     "@tiptap/markdown": "^3.20.0",
-    "@yiitap/i18n": "^0.16.1",
-    "@yiitap/util-emoji": "^0.16.1",
-    "@yiitap/vue": "^0.16.1",
+    "@yiitap/i18n": "^0.16.2",
+    "@yiitap/util-emoji": "^0.16.2",
+    "@yiitap/vue": "^0.16.2",
     "@mermaid-js/layout-elk": "^0.2.0",
     "katex": "^0.16.25",
     "markdown-it": "^14.1.1",

@@ -1,0 +1,26 @@
+{
+  "exportName": "default",
+  "displayName": "OCodeBlockDownloadDropdown",
+  "description": "",
+  "tags": {},
+  "props": [
+    {
+      "name": "modelValue",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'splitVertical'"
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "download"
+    }
+  ],
+  "sourceFiles": [
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/buttons/OCodeBlockDownloadDropdown.vue"
+  ]
+}

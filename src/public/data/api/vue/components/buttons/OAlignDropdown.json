@@ -9,6 +9,26 @@
       "type": {
         "name": "object"
       }
+    },
+    {
+      "name": "placement",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'bottom-start'"
+      }
+    },
+    {
+      "name": "trigger",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'click'"
+      }
     }
   ],
   "sourceFiles": [

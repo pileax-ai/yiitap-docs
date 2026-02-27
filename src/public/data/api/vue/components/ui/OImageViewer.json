@@ -1,0 +1,57 @@
+{
+  "name": "ODialog",
+  "exportName": "default",
+  "displayName": "OImageViewer",
+  "description": "",
+  "tags": {},
+  "props": [
+    {
+      "name": "show",
+      "type": {
+        "name": "boolean"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "false"
+      }
+    },
+    {
+      "name": "title",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "''"
+      }
+    },
+    {
+      "name": "images",
+      "type": {
+        "name": "Array as () => EditorImage[]"
+      },
+      "defaultValue": {
+        "func": true,
+        "value": "() => []"
+      }
+    },
+    {
+      "name": "current",
+      "type": {
+        "name": "number"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "0"
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "update:show"
+    }
+  ],
+  "sourceFiles": [
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/ui/OImageViewer.vue"
+  ]
+}

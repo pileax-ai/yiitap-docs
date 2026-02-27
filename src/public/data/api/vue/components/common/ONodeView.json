@@ -3,11 +3,6 @@
   "displayName": "ONodeView",
   "description": "",
   "tags": {},
-  "events": [
-    {
-      "name": "action"
-    }
-  ],
   "slots": [
     {
       "name": "default"

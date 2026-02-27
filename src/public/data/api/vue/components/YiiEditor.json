@@ -211,34 +211,60 @@
       ]
     },
     {
-      "name": "aiOption",
+      "name": "aiOptions",
       "type": {
-        "name": "AiOption"
+        "name": "AiOptions"
       },
       "defaultValue": {
         "func": true,
         "value": "() => {}"
       }
+    },
+    {
+      "name": "collab",
+      "description": "Collab config.",
+      "type": {
+        "name": "CollabConfig"
+      },
+      "defaultValue": {
+        "func": true,
+        "value": "(): CollabConfig => ({\n  enabled: false,\n})"
+      }
     }
   ],
   "events": [
     {
+      "name": "create",
+      "type": {
+        "names": [
+          "Editor"
+        ]
+      },
+      "description": "Emit when editor is fully initialized and ready.",
+      "tags": [
+        {
+          "title": "see",
+          "content": "https://tiptap.dev/docs/editor/api/events#list-of-available-events"
+        }
+      ]
+    },
+    {
       "name": "transaction",
       "type": {
         "names": [
-          "{ editor: Editor; transaction: Object }"
+          "{ editor: Editor; transaction: object }"
         ]
       },
-      "description": "Emit when content transaction"
+      "description": "Emit when content transaction."
     },
     {
       "name": "update",
       "type": {
         "names": [
-          "{ json: Object; html: string }"
+          "{ editor: Editor }"
         ]
       },
-      "description": "Emit when content updates"
+      "description": "Emit when content updates."
     }
   ],
   "slots": [

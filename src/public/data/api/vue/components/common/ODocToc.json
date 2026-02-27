@@ -58,6 +58,11 @@
       "description": "Emit when content scrolling"
     }
   ],
+  "slots": [
+    {
+      "name": "title"
+    }
+  ],
   "sourceFiles": [
     "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/ODocToc.vue"
   ]

@@ -7,26 +7,44 @@
   "props": [
     {
       "name": "show",
+      "required": true,
       "type": {
         "name": "boolean"
-      },
-      "defaultValue": {
-        "func": false,
-        "value": "false"
+      }
+    },
+    {
+      "name": "icon",
+      "required": false,
+      "type": {
+        "name": "string"
       }
     },
     {
       "name": "title",
+      "required": false,
       "type": {
         "name": "string"
-      },
-      "defaultValue": {
-        "func": false,
-        "value": "''"
+      }
+    },
+    {
+      "name": "dialogClass",
+      "required": false,
+      "type": {
+        "name": "string"
+      }
+    },
+    {
+      "name": "fullscreen",
+      "required": true,
+      "type": {
+        "name": "boolean"
       }
     }
   ],
   "events": [
+    {
+      "name": "close"
+    },
     {
       "name": "update:show"
     }

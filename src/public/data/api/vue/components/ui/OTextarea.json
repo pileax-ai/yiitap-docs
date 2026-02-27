@@ -1,6 +1,6 @@
 {
   "exportName": "default",
-  "displayName": "OInput",
+  "displayName": "OTextarea",
   "description": "",
   "tags": {},
   "expose": [
@@ -51,14 +51,21 @@
         "func": false,
         "value": "''"
       }
+    },
+    {
+      "name": "rows",
+      "type": {
+        "name": "number"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "3"
+      }
     }
   ],
   "events": [
     {
       "name": "blur"
-    },
-    {
-      "name": "enter"
     },
     {
       "name": "focus"
@@ -76,6 +83,6 @@
     }
   ],
   "sourceFiles": [
-    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/ui/OInput.vue"
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/ui/OTextarea.vue"
   ]
 }

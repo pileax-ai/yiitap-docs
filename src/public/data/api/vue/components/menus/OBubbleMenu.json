@@ -39,6 +39,16 @@
         "func": false,
         "value": "``"
       }
+    },
+    {
+      "name": "aiOptions",
+      "type": {
+        "name": "AiOptions"
+      },
+      "defaultValue": {
+        "func": true,
+        "value": "() => {}"
+      }
     }
   ],
   "sourceFiles": [

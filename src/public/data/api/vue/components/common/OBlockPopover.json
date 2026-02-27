@@ -45,6 +45,16 @@
       }
     },
     {
+      "name": "readonly",
+      "type": {
+        "name": "boolean"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "false"
+      }
+    },
+    {
       "name": "tippyClass",
       "type": {
         "name": "string"

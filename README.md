@@ -24,6 +24,12 @@ and preview it locally:
 pnpm docs:preview
 ```
 
+## docgen
+
+```shell
+pnpm docs:generate
+```
+
 ## I18n
 
 ### Docs Directory Structure
