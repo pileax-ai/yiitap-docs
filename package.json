@@ -1,6 +1,6 @@
 {
   "name": "yiitap-docs",
-  "version": "0.16.2",
+  "version": "0.16.3",
   "description": "Documentation for Yiitap",
   "keywords": [
     "vitepress",
@@ -21,9 +21,9 @@
     "@google/model-viewer": "^4.1.0",
     "@tiptap/extension-mathematics": "^3.20.0",
     "@tiptap/markdown": "^3.20.0",
-    "@yiitap/i18n": "^0.16.2",
-    "@yiitap/util-emoji": "^0.16.2",
-    "@yiitap/vue": "^0.16.2",
+    "@yiitap/i18n": "^0.16.3",
+    "@yiitap/util-emoji": "^0.16.3",
+    "@yiitap/vue": "^0.16.3",
     "@mermaid-js/layout-elk": "^0.2.0",
     "katex": "^0.16.25",
     "markdown-it": "^14.1.1",
@@ -41,5 +41,6 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "docs:generate": "node generate-docs.mjs"
-  }
+  },
+  "packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b"
 }
