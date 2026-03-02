@@ -48,7 +48,7 @@
                        class="o-input"
                        autofocus clearable>
                 <template #prefix>
-                  <o-icon name="search" class="o-tips" />
+                  <o-icon name="psychiatry" class="o-tips" />
                 </template>
               </o-input>
             </div>
@@ -86,10 +86,14 @@ import {
   OBtnGroup,
   OPopover,
   OStarterKit,
+  OAiBlock,
+  type AiOptions,
 } from '@yiitap/vue';
 import '@yiitap/vue/dist/vue.css';
 import { BasicFeaturesArticle, BasicFeaturesArticleZh } from '../../data/demo/article';
 import 'katex/dist/katex.min.css'
+
+import useAi from '../../hooks/useAi';
 
 const props = defineProps({
   locale: {
@@ -99,18 +103,26 @@ const props = defineProps({
 })
 
 const { isDark } = useData();
+const { aiOption, onStreamingChatCompletion } = useAi()
 
 const localeAlt = ref('en')
 const yiiEditor = ref<InstanceType<typeof YiiEditor>>()
 const tocRef = ref<InstanceType<typeof ODocToc>>()
-const aiOption = ref<AiOption>({
-  provider: 'deepseek',
-})
 provide('locale', localeAlt)
+
+
+const aiOptions = computed(() => {
+  return {
+    provider: {
+      provider: aiOption.value.provider,
+    },
+    onStreamingChatCompletion: onStreamingChatCompletion,
+  } as AiOptions
+})
 
 const options = computed(() => {
   return {
-    aiOption: aiOption.value,
+    aiOptions: aiOptions.value,
     // locale: locale.value,
     darkMode: isDark.value,
     // editable: editable.value,
@@ -154,10 +166,10 @@ const options = computed(() => {
     ],
     extensions: [
       OStarterKit.configure(),
+      OAiBlock.configure(aiOptions.value),
       'InlineMath',
       'Markdown',
       'OAudio',
-      'OAiBlock',
       'OBlockMath',
       'OColon',
       'OColorHighlighter',
@@ -206,7 +218,7 @@ onUnmounted(() => {
 });
 </script>
 
-<style scoped>
+<style>
 .layout {
   padding-top: 40px;
 }
