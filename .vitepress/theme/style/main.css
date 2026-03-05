@@ -3,6 +3,18 @@ body {
     font-family: var(--vp-font-family-base) !important;
 }
 
+.image-bg {
+    background-image: var(--vp-home-hero-image-background-image);
+    width: 192px;
+    height: 192px;
+    filter: var(--vp-home-hero-image-filter);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .badges {
     a img {
         display: inline !important;
