@@ -91,6 +91,7 @@ export function sidebarApi(locale :string) {
         { text: 'Code Block', link: extension('code-block') },
         { text: 'Color Highlighter', link: extension('color-highlighter') },
         { text: 'Image', link: extension('image') },
+        { text: 'Multi-column', link: extension('multi-column') },
         { text: 'Placeholder', link: extension('placeholder') },
         { text: 'Selection Decoration', link: extension('selection-decoration') },
         { text: 'Table', link: extension('table') },
