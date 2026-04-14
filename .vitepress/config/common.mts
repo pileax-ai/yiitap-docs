@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
+import attr from 'markdown-it-attrs'
 import { keywords, name, repo } from '../meta'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: './src',
+  rewrites: {
+    'en/:rest*': ':rest*'
+  },
   cleanUrls: true,
   ignoreDeadLinks: true,
   lastUpdated: true,
@@ -37,6 +41,7 @@ export default defineConfig({
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)
+      md.use(attr)
     }
   },
 

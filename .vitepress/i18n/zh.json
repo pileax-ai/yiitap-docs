@@ -1,4 +1,6 @@
 {
+  "extensions": "扩展",
+  "overview": "概述",
   "nav.guide": "指南",
   "nav.demo": "演示",
   "nav.components": "组件",
@@ -6,8 +8,6 @@
   "sidebar.advanced": "进阶",
   "sidebar.components": "组件",
   "sidebar.api.components": "组件",
-  "sidebar.api.extensions": "扩展",
-  "sidebar.api.overview": "概述",
   "sidebar.api.style": "样式",
   "sidebar.config": "配置",
   "sidebar.extraTopics": "其它",

@@ -15,13 +15,13 @@
 == Vue
 ```shell
 # npm
-npm -i @yiitap/vue
+npm -i @yiitap/vue @yiitap/vue-preset
 
 # yarn
-yarn add @yiitap/vue
+yarn add @yiitap/vue @yiitap/vue-preset
 
 # pnpm
-pnpm add @yiitap/vue
+pnpm add @yiitap/vue @yiitap/vue-preset
 ```
 == React
 `提示` React版本的Yiitap还在构建中，请保持关注。
@@ -39,7 +39,7 @@ pnpm add @yiitap/react
 
 ## 使用
 
-安装后，在你的App中使用 YiiEditor。
+安装后，在你的 App 中使用 YiiEditor。
 
 :::tabs
 == Vue

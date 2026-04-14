@@ -14,13 +14,13 @@
 == Vue
 ```shell
 # npm
-npm -i @yiitap/vue
+npm -i @yiitap/vue @yiitap/vue-preset
 
 # yarn
-yarn add @yiitap/vue
+yarn add @yiitap/vue @yiitap/vue-preset
 
 # pnpm
-pnpm add @yiitap/vue
+pnpm add @yiitap/vue @yiitap/vue-preset
 ```
 == React
 `Warning` The implementation for React are still under construction. Please stay tuned.

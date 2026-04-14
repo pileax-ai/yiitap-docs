@@ -1,4 +1,6 @@
 {
+  "extensions": "Extensions",
+  "overview": "Overview",
   "nav.components": "Components",
   "nav.demo": "Demo",
   "nav.guide": "Guide",
@@ -6,8 +8,6 @@
   "sidebar.advanced": "Advanced",
   "sidebar.components": "Components",
   "sidebar.api.components": "Components",
-  "sidebar.api.extensions": "Extensions",
-  "sidebar.api.overview": "Overview",
   "sidebar.api.style": "Style",
   "sidebar.config": "Config",
   "sidebar.extraTopics": "Extra Topics",
