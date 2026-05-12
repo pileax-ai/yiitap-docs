@@ -1,21 +1,11 @@
 {
   "exportName": "default",
-  "displayName": "OBlockPlaceholder",
+  "displayName": "Upload",
   "description": "",
   "tags": {},
   "props": [
     {
-      "name": "icon",
-      "type": {
-        "name": "string"
-      },
-      "defaultValue": {
-        "func": false,
-        "value": "'image'"
-      }
-    },
-    {
-      "name": "placeholder",
+      "name": "val",
       "type": {
         "name": "string"
       },
@@ -25,22 +15,32 @@
       }
     },
     {
-      "name": "tooltip",
+      "name": "type",
       "type": {
-        "name": "boolean"
+        "name": "string"
       },
       "defaultValue": {
         "func": false,
-        "value": "false"
+        "value": "''"
+      }
+    },
+    {
+      "name": "onUpload",
+      "type": {
+        "name": "(file: File, type: string) => Promise<string>"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "undefined"
       }
     }
   ],
-  "slots": [
+  "events": [
     {
-      "name": "right"
+      "name": "input"
     }
   ],
   "sourceFiles": [
-    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/OBlockPlaceholder.vue"
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/o-media-form/Upload.vue"
   ]
 }

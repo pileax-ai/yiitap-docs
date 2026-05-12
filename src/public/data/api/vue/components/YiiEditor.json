@@ -126,7 +126,7 @@
       },
       "defaultValue": {
         "func": true,
-        "value": "(): SideMenuConfig => ({\n  show: true,\n  add: 'menu',\n})"
+        "value": "(): SideMenuConfig => ({\n  show: true,\n  add: 'menu',\n  addMenuOptions: null,\n})"
       }
     },
     {

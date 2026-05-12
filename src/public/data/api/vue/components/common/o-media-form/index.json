@@ -1,58 +1,56 @@
 {
   "exportName": "default",
-  "displayName": "OSideMenu",
+  "displayName": "o-media-form",
   "description": "",
   "tags": {},
   "props": [
     {
-      "name": "editor",
-      "type": {
-        "name": "Editor"
-      },
-      "required": true
-    },
-    {
-      "name": "menuClass",
+      "name": "val",
       "type": {
         "name": "string"
       },
       "defaultValue": {
         "func": false,
-        "value": "``"
+        "value": "''"
       }
     },
     {
-      "name": "add",
+      "name": "tab",
       "type": {
         "name": "string"
       },
       "defaultValue": {
         "func": false,
-        "value": "`menu`"
+        "value": "'upload'"
       }
     },
     {
-      "name": "addMenuOptions",
+      "name": "type",
       "type": {
-        "name": "Record<string, boolean> | null"
+        "name": "string"
       },
       "defaultValue": {
         "func": false,
-        "value": "null"
+        "value": "''"
       }
     },
     {
-      "name": "title",
+      "name": "onUpload",
       "type": {
-        "name": "boolean"
+        "name": "(file: File, type: string) => Promise<string>"
       },
       "defaultValue": {
         "func": false,
-        "value": "false"
+        "value": "undefined"
       }
     }
   ],
+  "events": [
+    {
+      "name": "input"
+    }
+  ],
   "sourceFiles": [
-    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/menus/OSideMenu.vue"
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/o-media-form/index.vue"
   ]
 }

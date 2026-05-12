@@ -3,6 +3,18 @@
   "displayName": "AddNodeView",
   "description": "",
   "tags": {},
+  "props": [
+    {
+      "name": "addMenuOptions",
+      "type": {
+        "name": "Record<string, boolean> | null"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "null"
+      }
+    }
+  ],
   "events": [
     {
       "name": "action"

@@ -1,31 +1,36 @@
 {
   "exportName": "default",
-  "displayName": "AddNode",
+  "displayName": "Link",
   "description": "",
   "tags": {},
   "props": [
     {
-      "name": "add",
+      "name": "val",
       "type": {
         "name": "string"
       },
       "defaultValue": {
         "func": false,
-        "value": "'menu'"
+        "value": "''"
       }
     },
     {
-      "name": "addMenuOptions",
+      "name": "type",
       "type": {
-        "name": "Record<string, boolean> | null"
+        "name": "string"
       },
       "defaultValue": {
         "func": false,
-        "value": "null"
+        "value": "''"
       }
     }
   ],
+  "events": [
+    {
+      "name": "input"
+    }
+  ],
   "sourceFiles": [
-    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/o-side-menu/AddNode.vue"
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/common/o-media-form/Link.vue"
   ]
 }

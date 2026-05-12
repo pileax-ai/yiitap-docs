@@ -1,0 +1,109 @@
+{
+  "exportName": "default",
+  "displayName": "OPopover.new",
+  "description": "",
+  "tags": {},
+  "expose": [
+    {
+      "name": "setShow"
+    }
+  ],
+  "props": [
+    {
+      "name": "disable",
+      "type": {
+        "name": "boolean"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "false"
+      }
+    },
+    {
+      "name": "arrow",
+      "type": {
+        "name": "boolean"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "false"
+      }
+    },
+    {
+      "name": "offset",
+      "type": {
+        "name": "number | { mainAxis?: number; crossAxis?: number }"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "10"
+      }
+    },
+    {
+      "name": "placement",
+      "type": {
+        "name": "Placement"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'bottom-start'"
+      }
+    },
+    {
+      "name": "trigger",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'mouseenter focus'"
+      }
+    },
+    {
+      "name": "contentClass",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "''"
+      }
+    },
+    {
+      "name": "event",
+      "type": {
+        "name": "{ clientX: number; clientY: number } | null"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "null"
+      }
+    },
+    {
+      "name": "hideDelay",
+      "type": {
+        "name": "number"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "150"
+      }
+    }
+  ],
+  "events": [
+    {
+      "name": "update:show"
+    }
+  ],
+  "slots": [
+    {
+      "name": "trigger"
+    },
+    {
+      "name": "default"
+    }
+  ],
+  "sourceFiles": [
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/ui/OPopover.new.vue"
+  ]
+}

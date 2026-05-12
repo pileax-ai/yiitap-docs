@@ -1,0 +1,69 @@
+{
+  "exportName": "default",
+  "displayName": "OTooltip.new",
+  "description": "",
+  "tags": {},
+  "props": [
+    {
+      "name": "placement",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'top'"
+      }
+    },
+    {
+      "name": "trigger",
+      "type": {
+        "name": "string"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "'mouseenter focus'"
+      }
+    },
+    {
+      "name": "delay",
+      "type": {
+        "name": "number"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "100"
+      }
+    },
+    {
+      "name": "duration",
+      "type": {
+        "name": "number"
+      },
+      "defaultValue": {
+        "func": false,
+        "value": "150"
+      }
+    },
+    {
+      "name": "offset",
+      "type": {
+        "name": "number[]"
+      },
+      "defaultValue": {
+        "func": true,
+        "value": "() => [0, 10]"
+      }
+    }
+  ],
+  "slots": [
+    {
+      "name": "trigger"
+    },
+    {
+      "name": "default"
+    }
+  ],
+  "sourceFiles": [
+    "https://github.com/pileax-ai/yiitap/blob/main/packages/vue/src/components/ui/OTooltip.new.vue"
+  ]
+}

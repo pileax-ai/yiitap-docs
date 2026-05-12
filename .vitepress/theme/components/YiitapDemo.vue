@@ -87,6 +87,7 @@ import {
   OPopover,
   OStarterKit,
   OAiBlock,
+  OUploadManager,
   type AiOptions,
 } from '@yiitap/vue';
 import '@yiitap/vue/dist/vue.css';
@@ -167,6 +168,9 @@ const options = computed(() => {
     extensions: [
       OStarterKit.configure(),
       OAiBlock.configure(aiOptions.value),
+      OUploadManager.configure({
+        onUpload: onUpload,
+      }),
       'InlineMath',
       'Markdown',
       'OAudio',
@@ -174,6 +178,7 @@ const options = computed(() => {
       'OColon',
       'OColorHighlighter',
       'ODetails',
+      'OEmbed',
       'OImage',
       'OModelViewer',
       'OMultiColumn',
@@ -182,6 +187,21 @@ const options = computed(() => {
     ],
   }
 })
+
+function onUpload(file: File, type: string): Promise<string> {
+  return new Promise((resolve, reject) => {
+    // Upload mock
+    setTimeout(() => {
+      try {
+        // Create a temporary local URL for the file
+        const url = URL.createObjectURL(file)
+        resolve(url)
+      } catch (error) {
+        reject(new Error('Failed to generate mock URL'))
+      }
+    }, 1000)
+  })
+}
 
 function init() {
   localeAlt.value = props.locale

@@ -1,6 +1,6 @@
 {
   "name": "yiitap-docs",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "description": "Documentation for Yiitap",
   "keywords": [
     "vitepress",
@@ -20,8 +20,8 @@
   "dependencies": {
     "@google/model-viewer": "^4.1.0",
     "@mermaid-js/layout-elk": "^0.2.0",
-    "@yiitap/vue": "^0.17.1",
-    "@yiitap/vue-preset": "^0.17.1",
+    "@yiitap/vue": "^0.18.2",
+    "@yiitap/vue-preset": "^0.18.2",
     "katex": "^0.16.25",
     "markdown-it": "^14.1.1",
     "mermaid": "^11.12.0",

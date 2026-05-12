@@ -49,28 +49,37 @@ pnpm add @yiitap/react
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue';
-import { YiiEditor } from '@yiitap/vue';
-import '@yiitap/vue/dist/vue.css';
+import { computed, ref } from 'vue'
+import {
+YiiEditor,
+OStarterKit,
+} from '@yiitap/vue'
+import '@yiitap/vue/dist/vue.css'
 
-const yiiEditor = ref<InstanceType<typeof YiiEditor>>();
+const yiiEditor = ref<InstanceType<typeof YiiEditor>>()
 
 const options = computed(() => {
-  return {
-    content: '',
-    showMainMenu: false,
-    showBubbleMenu: true,
-    sideMenu: {
-      show: true,
-      add: 'menu',
-    },
-    pageView: 'page',
-  }
+return {
+  content: '',
+  showMainMenu: false,
+  showBubbleMenu: true,
+  sideMenu: {
+    show: true,
+    add: 'menu',
+  },
+  pageView: 'page',
+  extensions: [
+    OStarterKit.configure({
+      UniqueID: true,
+    }),
+  ]
+}
 })
 
-function onUpdate({ json, html }: { json: any; html: string }) {
-  console.log('update', json)
-  console.log('update', html);
+function onUpdate({ editor }: { editor: Editor }) {
+console.log('json', editor.getJSON())
+console.log('html', editor.getHTML())
+console.log('markdown', editor.markdown?.serialize(editor.getJSON()))
 }
 </script>
 ```
